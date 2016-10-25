@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MoWNav</string>
+
+    <!--customer_info_fragment.xml strings-->
+    <string name="meal_text">Meal:</string>
+    <string name="side_text">Side:</string>
+    <string name="drink_text">Drink:</string>
+    <string name="map_button_text">Map</string>
+    <string name="customer_notes_button_text">Notes</string>
+
+</resources>

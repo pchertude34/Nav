@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <CheckBox
+        android:id="@+id/customer_delivered_check_box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:padding="4dp"
+        />
+
+    <TextView
+        android:id="@+id/customer_name_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/customer_delivered_check_box"
+        android:textStyle="bold"
+        tools:text="Customer Name"
+        android:padding="4dp"
+        />
+
+    <TextView
+        android:id="@+id/customer_address_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/customer_name_text_view"
+        android:padding="4dp"
+        style="?android:listSeparatorTextViewStyle"
+        tools:text="1234 Customer ST"
+        />
+
+</RelativeLayout>
